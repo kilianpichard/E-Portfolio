@@ -25,7 +25,7 @@
         <h1 class="name">About Me</h1>
         <h1 class="redC" v-text="'<'+'h1'+'>'"></h1>
       </div>
-      <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
+      <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
       </h2>
       <div class="title" id="skills">
         <h1 class="aquaC" v-text="'<'+'h1'+'>'"></h1>
