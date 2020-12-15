@@ -3,24 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "cd server && npm install --dev",
-    "start": "node ./dist/server.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --mode ionic && ionic deploy manifest",
-    "build:ionic": "vue-cli-service build --mode ionic && ionic deploy manifest && npx cap copy",
-    "build:ionic:dev": "vue-cli-service build --mode ionicdev",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fullbuild": "vue-cli-service build && npm run express:build",
-    "express:build": "cd server && npm run build:prod",
-    "heroku-postbuild": "npm run fullbuild",
-    "resources": "cordova-res ios --copy && cordova-res android --copy",
-    "ionic:build": "npm run build:ionic",
-    "ios": "npm run build:ionic && npx cap copy && npx cap open ios"
+    "start": "node server.js"
   },
   "dependencies": {
     "@mdi/font": "^5.8.55",
     "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.2.11"
