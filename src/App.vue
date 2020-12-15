@@ -13,7 +13,6 @@
           <a href="#about"><span class="point">.</span><span class="redt">aboutMe</span><span class="point">()</span></a>
           <a href="#skills"><span class="point">.</span><span class="aqua">skills</span><span class="point">()</span></a>
           <a href="#projects"><span class="point">.</span><span class="pinkAC">projects</span><span class="point">()</span></a>
-          <a><span class="point">.</span><span class="purplet">contact</span><span class="point">()</span></a>
         </div>
       </div>
     </div>
