@@ -133,7 +133,7 @@
             </div>
 
           </div>
-          <a href="http://prams.fr/vitrine/accueil" target="_blank"><img class="redirect" src="@/assets/redirect.png" ></a>
+          <a href="http://www.prams.fr/vitrine/accueil" target="_blank"><img class="redirect" src="@/assets/redirect.png" ></a>
         </div>
           <div class="project nameDiv">
           <v-img src="@/assets/armelle.png"
@@ -319,6 +319,7 @@ padding-top:4px;
 .project{
   border-radius: 20px;
   background: rgba(100,100,100,0.3);
+  backdrop-filter: blur(10px);
   padding:20px;
   height: 300px;
 }
@@ -343,6 +344,7 @@ padding-top:4px;
   display: flex;
   justify-content: center;
   border-radius: 20px;
+  backdrop-filter: blur(10px);
   background: rgba(100,100,100,0.3);
   padding:20px 0px;
   margin:20px 0px;
@@ -351,6 +353,7 @@ padding-top:4px;
   border-radius: 20px;
   background: rgba(100,100,100,0.3);
   padding:20px;
+  backdrop-filter: blur(10px);
   margin:20px 0px;
   text-align: justify;
 }
