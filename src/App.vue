@@ -87,11 +87,10 @@
         </div>
       </div>
       <div class="firstPart">
-      <div class="aboutContainer">
+      <div class="projectContainer">
         <h1 class="cat">My Projects</h1>
         <div class="underline"></div>
-        <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
-        </h2>
+        <h2 class="about">I had the opportunity to create some websites, here are some of them.</h2>
       </div>
       <div class="underline"></div>
       <div class="allProjects">
@@ -267,7 +266,7 @@ export default {
 .three{
   width: 100vw;
   right: 25vw;
-  top:220vh;
+  top:182vh;
 }
 
 
@@ -299,8 +298,7 @@ export default {
   justify-content: flex-start;
   z-index: 15;
   height: 500px !important;
-  width: 500px !important;
-  border: 1px solid red;
+  width: 26.66vw !important;
 }
 .iconSvg{
   height: 48px !important;
@@ -337,6 +335,11 @@ export default {
   background: lightseagreen;
   color: white;
   padding: 150px 50px 300px 50px;
+}
+.projectContainer{
+  background: lightseagreen;
+  color: white;
+  padding: 75px 50px 150px 50px;
 }
 .about{
   text-align: justify;
@@ -408,7 +411,8 @@ export default {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top:90vh;
+  top:30vh;
+  margin-bottom: 20px;
 }
 .projectContent{
   text-align: justify;
