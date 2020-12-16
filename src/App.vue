@@ -1,187 +1,179 @@
+<script src="../node_modules/rellax/rellax.js"></script>
 <template>
   <v-app class="app">
-    <div class="appBar">
-      <div class="navBar">
-        <div class="flexRow nameDiv">
-          <h1 class="thin code" v-text="'<'"></h1><h1 class="thin firstname">KILIAN</h1><h1 class="name">PICHARD</h1> <h1 class="thin code" v-text="'/>'"></h1>
-        </div>
-        <img
-          class="imgLogo"
-          src="@/assets/kilian.gif"
-        />
-        <div class="nav">
-          <a href="#about"><span class="point">.</span><span class="redt">aboutMe</span><span class="point">()</span></a>
-          <a href="#skills"><span class="point">.</span><span class="aqua">skills</span><span class="point">()</span></a>
-          <a href="#projects"><span class="point">.</span><span class="pinkAC">projects</span><span class="point">()</span></a>
-        </div>
-      </div>
+    <div class="bg">
+      <svg class="blob one rellax" data-rellax-speed="4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EBF8F8" d="M49.8,-56.4C54.4,-45.2,40.9,-22.6,35.1,-5.7C29.4,11.2,31.5,22.4,26.9,33.6C22.4,44.9,11.2,56.2,-4.8,61C-20.8,65.8,-41.6,64.1,-53,52.8C-64.4,41.6,-66.5,20.8,-62.7,3.8C-58.9,-13.1,-49.2,-26.3,-37.7,-37.4C-26.3,-48.6,-13.1,-57.8,4.7,-62.5C22.6,-67.3,45.2,-67.6,49.8,-56.4Z" transform="translate(100 100)" />
+      </svg>
+      <svg class="blob two rellax" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EBF8F8" d="M61.1,-50.5C76.9,-45.4,85.5,-22.7,82.3,-3.2C79.1,16.2,63.9,32.5,48.2,41.5C32.5,50.5,16.2,52.3,1.5,50.8C-13.3,49.4,-26.6,44.6,-34,35.6C-41.5,26.6,-43.2,13.3,-44.3,-1.1C-45.3,-15.5,-45.9,-30.9,-38.4,-35.9C-30.9,-41,-15.5,-35.6,3.6,-39.2C22.7,-42.8,45.4,-55.5,61.1,-50.5Z" transform="translate(100 100)" />
+      </svg>
+      <svg class="blob three rellax"  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EBF8F8" d="M54.3,-14.4C58.5,-4.9,41.6,14.6,24.2,25.3C6.8,36.1,-11.1,38.1,-21.5,30.3C-31.9,22.6,-34.7,5.2,-29.8,-5.2C-25,-15.7,-12.5,-19.2,6.3,-21.2C25.1,-23.3,50.2,-23.9,54.3,-14.4Z" transform="translate(100 100)" />
+      </svg>
+    </div>
+    <div class="navBar">
+      <img
+        class="logo"
+        src="@/assets/logo.svg"
+      />
     </div>
     <v-main class="main">
-      <transition name="bounce">
-        <Profile></Profile>
-      </transition>
-      <div class="title" id="about">
-        <h1 class="redC" v-text="'<'+'h1'+'>'"></h1>
-        <h1 class="name">About Me</h1>
-        <h1 class="redC" v-text="'<'+'h1'+'>'"></h1>
-      </div>
-      <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
-      </h2>
-      <div class="title" id="skills">
-        <h1 class="aquaC" v-text="'<'+'h1'+'>'"></h1>
-        <h1 class="name">Skills</h1>
-        <h1 class="aquaC" v-text="'<'+'h1'+'>'"></h1>
-      </div>
-      <div class="skills">
-        <div class="title h">
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-          <h2 class="name">Web Programming</h2>
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
+      <div class="profile">
+        <div class="name">
+          <h1 class="thin code" v-text="'<'"></h1><h1 class="thin">KILIAN</h1><h1>PICHARD</h1> <h1 class="thin code" v-text="'/>'"></h1>
         </div>
-        <div class="row">
-        <div class="skill">
-          <img src="@/assets/html.png"><p>HTML 5</p>
-        </div>
-        <div class="skill">
-          <img src="@/assets/css.png"><p>CSS 3</p>
-        </div>
-        <div class="skill">
-          <img src="@/assets/js.png"><p>JavaScript</p>
-        </div>
-          <div class="skill">
-            <img src="@/assets/bootstrap.png"><p>Bootstrap</p>
-          </div>
-        <div class="skill">
-          <img src="@/assets/php.png"><p>PHP</p>
-        </div>
-        <div class="skill">
-          <img src="@/assets/vue.png"><p>Vue.JS</p>
-        </div>
-        <div class="skill">
-          <img src="@/assets/vuetify.png"><p>Vuetify</p>
+        <div class="avaText">
+        <div class="avatar">
+          <v-avatar size="250" class="imgAv"><v-img src="@/assets/pp.jpg"></v-img> </v-avatar></div>
+        <div class="it">
+          <h1 class="thin">IT</h1>
+          <h1>STUDENT</h1>
+          <h3 class="thin">Caen, France.</h3>
         </div>
         </div>
       </div>
-      <div class="skills">
-        <div class="title h">
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-          <h2 class="name">Other Programming Languages</h2>
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
+      <div class="firstPart">
+        <div class="aboutContainer">
+          <h1 class="cat">About Me</h1>
+          <div class="underline"></div>
+          <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
+          </h2>
         </div>
-        <div class="row">
-          <div class="skill">
-            <img src="@/assets/java.png"><p>JAVA</p>
-          </div>
-          <div class="skill">
-            <img src="@/assets/c.png"><p>C</p>
-          </div>
-          <div class="skill">
-            <img src="@/assets/python.png"><p>Basics in PYTHON</p>
-        </div>
-      </div>
-      </div>
-      <div class="skills">
-        <div class="title h">
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-          <h2 class="name">DataBases</h2>
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-        </div>
-        <div class="row">
-          <div class="skill">
-            <img src="@/assets/oracle.png"><p>Oracle</p>
-          </div>
-          <div class="skill">
-            <img src="@/assets/mongo.png"><p>MongoDB</p>
-          </div>
-          <div class="skill">
-            <img src="@/assets/uml.png"><p>UML</p>
-          </div>
-        </div>
-      </div>
-      <div class="skills">
-        <div class="title h">
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-          <h2 class="name">Softwares</h2>
-          <h2 class="code" v-text="'<'+'h2'+'>'"></h2>
-        </div>
-        <div class="row">
-          <div class="skill">
-            <img src="@/assets/adobe.svg"><p>Adobe Suite</p>
-          </div>
-          <div class="skill">
-            <img src="@/assets/office.png"><p>Office</p>
-          </div>
-        </div>
-      </div>
-      <div class="title" id="projects">
-        <h1 class="pinkC" v-text="'<'+'h1'+'>'"></h1>
-        <h1 class="name">My Projects</h1>
-        <h1 class="pinkC" v-text="'<'+'h1'+'>'"></h1>
-      </div>
-      <div class="allProjects">
-        <div class="project nameDiv">
-        <v-img src="@/assets/prams.png"
-        class="projectImg"></v-img>
-          <div class="desc">
-            <h2 class="projectTitle">Website - PRAM'S</h2>
-            <p class="projectContent">I coded a showcase website for my music group PRAM'S, but also a hidden site, coded with a friend, only accessible by musicians and converted into an ios and android web app, allowing us to manage our concerts, create surveys, rehearsal dates , or to calculate mileage costs automatically. (Use of several APIs: Youtube / Spotify | Use of git)</p>
-            <div class="language">
-              <img src="@/assets/vuetify.png" class="languageImg"><p>Vuetify</p>
-              <img src="@/assets/mongo.png" class="languageImg"><p>MongoDB</p>
-              <img src="@/assets/capacitor.png" class="languageImg"><p>Capacitor</p>
-              <img src="@/assets/heroku.png" class="languageImg"><p>Heroku</p>
+
+        <div class="skills">
+          <div id="first" class="col">
+            <div class="imgCont">
+              <v-img class="iconSvg" src="@/assets/designer.svg"></v-img>
             </div>
+            <h2 class="sTitle">Creation</h2>
+            <h3 class="sSub">Creation I've been working on : </h3>
+            <p>UI, UX, Logos, Posters, Clips</p>
 
+            <h3 class="sSub">Creating Tools : </h3>
+            <p>Adobe Photoshop, Lightroom, Illustrator</p>
+            <p>Adobe Premiere Pro, After Effects</p>
+            <p>Apple Final Cut Pro, Logic Pro X</p>
+            <p>Figma</p>
           </div>
-          <a href="http://www.prams.fr/vitrine/accueil" target="_blank"><img class="redirect" src="@/assets/redirect.png" ></a>
-        </div>
-          <div class="project nameDiv">
-          <v-img src="@/assets/armelle.png"
-                 class="projectImg"></v-img>
-          <div class="desc">
-            <h2 class="projectTitle">Website - ARMELLE BEAUTÉ</h2>
-            <p class="projectContent">I created with the CMS "JIMDO" a showcase site of product presentation and services of the beauty institute "Armelle Beauté"</p>
-            <div class="language"><img src="@/assets/jimdo.png" class="languageImg"></div>
+          <div  class="col">
+            <div class="imgCont">
+              <v-img class="iconSvg" src="@/assets/frontend.svg"></v-img>
+            </div>
+            <h2 class="sTitle">Web Development</h2>
+            <h3 class="sSub">Languages I Speak : </h3>
+                <p>HTML 5, CSS 3, JavaScript, PHP, Vue.JS</p>
 
+            <h3 class="sSub">Dev Tools : </h3>
+            <p>Oracle, MongoDB, UML</p>
+            <p>Heroku</p>
+            <p>Git</p>
+            <p>Bootstrap, Vuetify</p>
+            <p>Cordova/Ionic</p>
           </div>
-            <a href="http://armellebeaute.fr" target="_blank"><img class="redirect" src="@/assets/redirect.png"></a>
+
+          <div id="last" class="col last">
+            <div class="imgCont">
+              <v-img class="iconSvg" src="@/assets/binary-code.svg"></v-img>
+            </div>
+            <h2 class="sTitle">Other</h2>
+            <h3 class="sSub">Languages I Speak : </h3>
+            <p>Java, C, Basics in Python</p>
+
+            <h3 class="sSub">Dev Tools : </h3>
+            <p>SageMath</p>
+            <p>Eclipse / IntelliJ</p>
+            <p>jUnit / Maven / Jenkins</p>
+          </div>
         </div>
-          <div class="project nameDiv">
-            <v-img src="@/assets/tdf.png"
-                   class="projectImg"></v-img>
+      </div>
+      <div class="firstPart">
+      <div class="aboutContainer">
+        <h1 class="cat">My Projects</h1>
+        <div class="underline"></div>
+        <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
+        </h2>
+      </div>
+      <div class="underline"></div>
+      <div class="allProjects">
+
+        <div class="project nameDiv">
+          <div class="index">
+            <div class="head">
+            <img class="projectImg"  src="@/assets/prams.png">
+              <h2 class="projectTitle">PRAM'S</h2>
+            </div>
             <div class="desc">
-              <h2 class="projectTitle">School Project - Tour de France</h2>
-              <p class="projectContent">We worked in groups of 4 on a project based on the "Tour de France", this project was entirely in PHP and on an ORACLE database. We had to retrieve several information, create some, like: adding cyclists, retrieving information / rankings</p><div class="language">
-                <img src="@/assets/php.png" class="languageImg"><p>PHP</p>
-              <img src="@/assets/oracle.png" class="languageImg"><p>Oracle</p>
+
+              <p class="projectContent">I coded a showcase website for my music group PRAM'S, but also a hidden site, coded with a friend, only accessible by musicians and converted into an ios and android web app, allowing us to manage our concerts, create surveys, rehearsal dates , or to calculate mileage costs automatically. (Use of several APIs: Youtube / Spotify | Use of git)</p>
+              <div class="language">
+                <p class="tech">Technologies Used</p>
+                <p>Vuetify, MongoDB, Capacitor/Ionic, Heroku, Git</p>
               </div>
             </div>
+          </div>
         </div>
         <div class="project nameDiv">
-          <v-img src="@/assets/indep.png"
-                 class="projectImg"></v-img>
+          <div class="zI">
+          <div class="head">
+          <img class="projectImg" src="@/assets/armelle.png">
+            <h2 class="projectTitle">ARMELLE BEAUTÉ</h2>
+          </div>
           <div class="desc">
-            <h2 class="projectTitle">Website - INDÉPENDANTE DE MESSEI</h2>
+
+            <p class="projectContent">I created with the CMS "JIMDO" a showcase site of product presentation and services of the beauty institute "Armelle Beauté"</p>
+            <div class="language">
+              <p class="tech">Technologies Used</p>
+              <p>CMS Jimdo</p>
+            </div>
+
+          </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="zI">
+          <div class="head">
+          <img class="projectImg"  src="@/assets/tdf.png">
+            <h2 class="projectTitle">Tour de France</h2>
+          </div>
+          <div class="desc">
+            <p class="projectContent">We worked in groups of 4 on a project based on the "Tour de France", this project was entirely in PHP and on an ORACLE database. We had to retrieve several information, create some, like: adding cyclists, retrieving information / rankings</p><div class="language">
+            <p class="tech">Technologies Used</p>
+            <p>PHP, Oracle</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="zI">
+            <div class="head">
+              <img class="projectImg"  src="@/assets/indep.png">
+                <h2 class="projectTitle">Indépendante de Messei</h2>
+            </div>
+
+          <div class="desc">
+
             <p class="projectContent">I coded a site for my other band, "L'Indépendante de Messei". This brings together our information, next concert dates, photo gallery</p>
             <div class="language">
-              <img src="@/assets/html.png" class="languageImg"><p>HTML 5</p>
-              <img src="@/assets/css.png" class="languageImg"><p>CSS 3</p>
+              <p class="tech">Technologies Used</p>
+              <p>HTML 5, CSS 3</p>
             </div>
           </div>
-          <a href="http://indépendante-messei.fr" target="_blank"><img class="redirect" src="@/assets/redirect.png"></a>
+          </div>
         </div>
+      </div>
       </div>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Profile from "@/components/Profile";
+import Rellax from 'rellax';
+var rellax = new Rellax('.rellax');
 
 export default {
-  name: "App",
 
-  components: {Profile},
+  name: "App",
 
   data: () => ({
     //
@@ -191,179 +183,225 @@ export default {
 
 
 <style>
-p,h2{
-  color:white;
-}
 *{
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 .thin{
   font-weight: lighter;
 }
-.main,.appBar{
-  background: url("../src/assets/fond.png");
-}
-.appBar{
-  color:white;
-  padding:15px;
-}
+
 .navBar{
+  color:white;
   display: flex;
+  flex-wrap: wrap;
+  padding:15px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  position: relative;
+  background: #F9F9F9;
 }
-.imgLogo{
-  height: 40px !important;
-  width: 40px !important;
-}
-.flexRow{
-  display: flex;
-  align-items: center;
-}
-a{
-  color:lightseagreen !important;
-  font-weight: bolder;
-  background: transparent !important;
-  transition: all .3s ease !important;
-}
-a:hover .point{
-    color: white !important;
-  transition: all .3s ease;
-}
-a:hover .redt,.redC{
-  color: red !important;
-  transition: all .3s ease;
-}
-a:hover .aqua,.aquaC{
-  color: aqua !important;
-  transition: all .3s ease;
-}
-a:hover .pinkAC,.pinkC{
-  color:hotpink !important;
-  transition: all .3s ease;
-}
-a:hover .purplet{
-  color: magenta !important;
-  transition: all .3s ease;
-}
-.nav{
-  width: 350px;
-  display: flex;
-  justify-content: space-between;
+.logo{
+  height: 40px;
+  width: 40px;
 }
 .code{
-  color:lightseagreen !important;
-  transition: all .3s ease;
-}
-.nameDiv:hover .firstname{
-  color:lightseagreen !important;
-  transition: all .3s ease;
-}
-.nameDiv:hover .name{
-  color:lightseagreen !important;
-  transition: all .3s ease;
- }
-.title{
-  display: flex;
-  margin:20px 0px;
-}
-h2.about{
-  margin:10px;
-}
-.main{
-  padding: 10px !important;
+  color:lightseagreen;
 }
 .name{
-  color:white;
+  font-size: 40px;
+  margin-left: 30px;
+  z-index: 15;
 }
-.projectImg{
-  border-radius: 30px;
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
+.cat{
+  font-size: 40px;
+  margin: auto;
+  height: 60px;
+}
+.avatar{
+  border: 3px solid lightseagreen;
+  padding:10px;
+  border-radius: 500px;
+  transition: all .5s ease;
+}
+.avatar:hover{
+  padding:2px;
+  border: 11px solid lightseagreen;
+  transition: all .5s ease;
+}
+.avaText{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.it{
+  margin:20px;
+  color: lightseagreen;
+}
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.blob{
+  position: absolute;
+  opacity: 0.7;
+  z-index: 10;
+}
+.one{
+  width: 60vw;
+  top:0;
+
+}
+.two{
+  width: 60vw;
+  right: 0;
+  top:100vh;
+}
+.three{
+  width: 100vw;
+  right: 25vw;
+  top:220vh;
+}
+
+
+.skill{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.skill>p{
+  padding-top:7px;
+}
+.skill>img{
+  height: 60px;
+}
+.sTitle{
+  color: #232323;
+  font-size: 25px;
+}
+.sSub{
+  color: lightseagreen;
+  font-weight: normal;
+  margin: 5px;
+}
+.col{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 15;
+}
+.iconSvg{
+  height: 48px !important;
+}
+.imgCont{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80px;
+}
+.skills{
+  box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border:1px solid lightseagreen;
+  border-radius: 20px;
+  width: 80vw;
+  position: absolute;
+  top:80vh;
+  left:10vw;
+  background: #F9F9F9;
+}
+#first{
+  border-right: 1px solid lightseagreen;
+}
+#last{
+  border-left: 1px solid lightseagreen;
+}
+.aboutContainer{
+  background: lightseagreen;
+  color: white;
+  padding: 150px 50px 300px 50px;
+}
+.about{
+  text-align: justify;
+}
+.firstPart{
+  position: relative;
+  padding-bottom: 400px;
+}
+.underline{
+  width: 10%;
+  border-top: 2px solid white;
+  margin-bottom: 20px;
 }
 .project{
-  margin-top:20px;
+  background: white;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
+  width: 30vw;
+  height: 400px;
+  padding:20px;
+  z-index: 15;
+  border-radius: 20px;
+  margin: 10px;
+  transition: all .3s ease;
+}
+.project:hover{
+  box-shadow: 0px 15px 30px 4px rgba(0,0,0,0.15);
+}
+.language{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech{
+  color:lightseagreen;
+}
+
+.head{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 700px !important;
-}
-.projectContent{
-  text-align: justify;
-  padding-right: 40px;
-  max-width: 500px;
-}
+  margin-bottom:10px;
 
-.language{
-  display: flex;
-  align-items: start;
-  justify-content: start;
 }
-.languageImg{
-  max-height: 20px;
-  margin:5px;
-  margin-left: 10px;
+.head>h2{
+  font-weight: normal;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .allProjects{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  position: absolute;
+  top:90vh;
 }
-.language>p{
-padding-top:4px;
-}
-.project{
-  border-radius: 20px;
-  background: rgba(100,100,100,0.3);
-  backdrop-filter: blur(10px);
-  padding:20px;
-  height: 300px;
-}
-.h{
-  margin-left: 20px;
-}
-.skill{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-
-}
-.skill>img{
-  height: 50px;
-}
-.skill>p{
-  padding-top:10px;
-  margin-left: 5px;
-}
-.row{
-  display: flex;
-  justify-content: center;
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  background: rgba(100,100,100,0.3);
-  padding:20px 0px;
-  margin:20px 0px;
-}
-.about{
-  border-radius: 20px;
-  background: rgba(100,100,100,0.3);
-  padding:20px;
-  backdrop-filter: blur(10px);
-  margin:20px 0px;
+.projectContent{
   text-align: justify;
 }
-.project{
-  position: relative;
+.tech{
+  font-size: 20px;
 }
-.redirect{
-  height: 50px;
-  position: absolute;
-  bottom: 7px;
-  right: 10px;
+.projectImg{
+  height: 100px;
+  width: 100px;
+  border-radius: 500px;
 }
+
 </style>

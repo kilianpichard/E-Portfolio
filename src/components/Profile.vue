@@ -1,9 +1,7 @@
 <template>
   <v-container class="container">
       <div class="flexRow profile">
-        <div class="avatar animate__animated animate__bounce animate__delay-2s">
           <v-avatar size="250"><v-img src="@/assets/pp.jpg"></v-img> </v-avatar>
-        </div>
         <div class="test">
           <h1 class="thin">IT</h1><h1>STUDENT</h1>
           <h3>Caen, France.</h3>
