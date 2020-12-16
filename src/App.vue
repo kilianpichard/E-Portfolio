@@ -312,6 +312,8 @@ export default {
   box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
   margin: auto;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   border:1px solid lightseagreen;
   border-radius: 20px;
