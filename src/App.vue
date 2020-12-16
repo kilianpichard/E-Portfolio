@@ -71,8 +71,7 @@
             <p>Bootstrap, Vuetify</p>
             <p>Cordova/Ionic</p>
           </div>
-
-          <div id="last" class="col last">
+          <div id="last" class="col">
             <div class="imgCont">
               <v-img class="iconSvg" src="@/assets/binary-code.svg"></v-img>
             </div>
@@ -105,10 +104,11 @@
             </div>
             <div class="desc">
 
-              <p class="projectContent">I coded a showcase website for my music group PRAM'S, but also a hidden site, coded with a friend, only accessible by musicians and converted into an ios and android web app, allowing us to manage our concerts, create surveys, rehearsal dates , or to calculate mileage costs automatically. (Use of several APIs: Youtube / Spotify | Use of git)</p>
+              <p class="projectContent">I coded a showcase website for my music group PRAM'S, but also a hidden site, coded with a friend, only accessible by musicians and converted into an ios and android web app, allowing us to manage our concerts, create surveys, rehearsal dates , or to calculate mileage costs automatically. (Use of several APIs: Youtube / Spotify)</p>
               <div class="language">
                 <p class="tech">Technologies Used</p>
                 <p>Vuetify, MongoDB, Capacitor/Ionic, Heroku, Git</p>
+                <a class="link" href="http://www.prams.fr" target="_blank">www.prams.fr</a>
               </div>
             </div>
           </div>
@@ -125,6 +125,7 @@
             <div class="language">
               <p class="tech">Technologies Used</p>
               <p>CMS Jimdo</p>
+              <a class="link" href="http://www.armellebeaute.fr" target="_blank">www.armellebeaute.fr</a>
             </div>
 
           </div>
@@ -157,6 +158,7 @@
             <div class="language">
               <p class="tech">Technologies Used</p>
               <p>HTML 5, CSS 3</p>
+              <a class="link" href="http://www.indépendante-messei.fr" target="_blank">www.indépendante-messei.fr</a>
             </div>
           </div>
           </div>
@@ -352,12 +354,22 @@ export default {
   justify-content: flex-start;
   box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
   width: 30vw;
-  height: 400px;
+  height: 450px;
   padding:20px;
   z-index: 15;
   border-radius: 20px;
   margin: 10px;
   transition: all .3s ease;
+}
+.link{
+  color:lightseagreen !important;
+  font-size: 20px;
+}
+.link:visited{
+  color: lightseagreen !important;
+}
+.desc{
+  height: 100px;
 }
 .project:hover{
   box-shadow: 0px 15px 30px 4px rgba(0,0,0,0.15);
@@ -394,6 +406,10 @@ export default {
 }
 .projectContent{
   text-align: justify;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .tech{
   font-size: 20px;
