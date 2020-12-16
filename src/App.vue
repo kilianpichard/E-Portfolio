@@ -298,7 +298,7 @@ export default {
   justify-content: flex-start;
   z-index: 15;
   height: 500px !important;
-  width: 26.66vw !important;
+  width: 22vw !important;
 }
 .iconSvg{
   height: 48px !important;
@@ -314,7 +314,7 @@ export default {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   height: 500px;
   border:1px solid lightseagreen;
