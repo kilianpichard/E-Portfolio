@@ -314,7 +314,7 @@ export default {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   height: 500px;
   border:1px solid lightseagreen;
