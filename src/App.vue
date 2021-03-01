@@ -3,13 +3,13 @@
   <v-app class="app">
     <div class="bg">
       <svg class="blob one rellax" data-rellax-speed="4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#EBF8F8" d="M49.8,-56.4C54.4,-45.2,40.9,-22.6,35.1,-5.7C29.4,11.2,31.5,22.4,26.9,33.6C22.4,44.9,11.2,56.2,-4.8,61C-20.8,65.8,-41.6,64.1,-53,52.8C-64.4,41.6,-66.5,20.8,-62.7,3.8C-58.9,-13.1,-49.2,-26.3,-37.7,-37.4C-26.3,-48.6,-13.1,-57.8,4.7,-62.5C22.6,-67.3,45.2,-67.6,49.8,-56.4Z" transform="translate(100 100)" />
+        <path fill="#83B3AE" d="M49.8,-56.4C54.4,-45.2,40.9,-22.6,35.1,-5.7C29.4,11.2,31.5,22.4,26.9,33.6C22.4,44.9,11.2,56.2,-4.8,61C-20.8,65.8,-41.6,64.1,-53,52.8C-64.4,41.6,-66.5,20.8,-62.7,3.8C-58.9,-13.1,-49.2,-26.3,-37.7,-37.4C-26.3,-48.6,-13.1,-57.8,4.7,-62.5C22.6,-67.3,45.2,-67.6,49.8,-56.4Z" transform="translate(100 100)" />
       </svg>
       <svg class="blob two rellax" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#EBF8F8" d="M61.1,-50.5C76.9,-45.4,85.5,-22.7,82.3,-3.2C79.1,16.2,63.9,32.5,48.2,41.5C32.5,50.5,16.2,52.3,1.5,50.8C-13.3,49.4,-26.6,44.6,-34,35.6C-41.5,26.6,-43.2,13.3,-44.3,-1.1C-45.3,-15.5,-45.9,-30.9,-38.4,-35.9C-30.9,-41,-15.5,-35.6,3.6,-39.2C22.7,-42.8,45.4,-55.5,61.1,-50.5Z" transform="translate(100 100)" />
+        <path fill="#83B3AE" d="M61.1,-50.5C76.9,-45.4,85.5,-22.7,82.3,-3.2C79.1,16.2,63.9,32.5,48.2,41.5C32.5,50.5,16.2,52.3,1.5,50.8C-13.3,49.4,-26.6,44.6,-34,35.6C-41.5,26.6,-43.2,13.3,-44.3,-1.1C-45.3,-15.5,-45.9,-30.9,-38.4,-35.9C-30.9,-41,-15.5,-35.6,3.6,-39.2C22.7,-42.8,45.4,-55.5,61.1,-50.5Z" transform="translate(100 100)" />
       </svg>
       <svg class="blob three rellax"  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#EBF8F8" d="M54.3,-14.4C58.5,-4.9,41.6,14.6,24.2,25.3C6.8,36.1,-11.1,38.1,-21.5,30.3C-31.9,22.6,-34.7,5.2,-29.8,-5.2C-25,-15.7,-12.5,-19.2,6.3,-21.2C25.1,-23.3,50.2,-23.9,54.3,-14.4Z" transform="translate(100 100)" />
+        <path fill="#83B3AE" d="M54.3,-14.4C58.5,-4.9,41.6,14.6,24.2,25.3C6.8,36.1,-11.1,38.1,-21.5,30.3C-31.9,22.6,-34.7,5.2,-29.8,-5.2C-25,-15.7,-12.5,-19.2,6.3,-21.2C25.1,-23.3,50.2,-23.9,54.3,-14.4Z" transform="translate(100 100)" />
       </svg>
     </div>
     <div class="navBar">
@@ -37,8 +37,9 @@
         <div class="aboutContainer">
           <h1 class="cat">About Me</h1>
           <div class="underline"></div>
-          <h2 class="about">I am currently at IUT Grand Ouest Normandie, at the "IFS" department, to follow my second and last year of DUT Informatique. I had the opportunity to work on several personal / school web projects and I therefore wish to continue my studies in WEB development. I am very attentive, organized, I like teamwork. I always want to learn new languages, new skills, especially through projects by learning by working on them, as I learned Vue.JS. I am very attentive to the design of things, the colors, the layout of the websites, and I pay attention to detail, that's why I rarely use style frameworks like Bootstrap could do.
-          </h2>
+          <h2 class="about">Attentive, Curious, Motivated; I had the opportunity to work on several web projects, either during my training or on my personal time. I like to work in a team, in order to share our knowledge with the whole team.
+            I'm looking for an internship in Web Development to finalize my studies, and start to
+            work in the professional world.</h2>
         </div>
 
         <div class="skills">
@@ -62,13 +63,12 @@
             </div>
             <h2 class="sTitle">Web Development</h2>
             <h3 class="sSub">Languages I Speak : </h3>
-                <p>HTML 5, CSS 3, JavaScript, PHP, Vue.JS</p>
-
+                <p>Vue.JS, HTML 5, CSS 3, JavaScript, PHP</p>
+                 <p>Vuetify, Ember.JS, Ubiquity, Bootstrap</p>
             <h3 class="sSub">Dev Tools : </h3>
-            <p>Oracle, MongoDB, UML</p>
+            <p>MongoDB, Oracle, MySQL, UML</p>
             <p>Heroku</p>
             <p>Git</p>
-            <p>Bootstrap, Vuetify</p>
             <p>Cordova/Ionic</p>
           </div>
           <div id="last" class="col">
@@ -107,7 +107,7 @@
               <div class="language">
                 <p class="tech">Technologies Used</p>
                 <p>Vuetify, MongoDB, Capacitor/Ionic, Heroku, Git</p>
-                <a class="link" href="http://www.prams.fr" target="_blank">www.prams.fr</a>
+                <a class="link" href="http://www.prams.fr/vitrine/accueil" target="_blank">www.prams.fr</a>
               </div>
             </div>
           </div>
@@ -157,7 +157,8 @@
             <div class="language">
               <p class="tech">Technologies Used</p>
               <p>HTML 5, CSS 3</p>
-              <a class="link" href="http://www.indépendante-messei.fr" target="_blank">www.indépendante-messei.fr</a>
+              <!--<a class="link" href="http://www.indépendante-messei.fr" target="_blank">www.indépendante-messei.fr</a>-->
+              <p>Link not available at the moment</p>
             </div>
           </div>
           </div>
@@ -210,7 +211,7 @@ export default {
   width: 40px;
 }
 .code{
-  color:lightseagreen;
+  color:#658985;
 }
 .name{
   font-size: 40px;
@@ -223,14 +224,14 @@ export default {
   height: 60px;
 }
 .avatar{
-  border: 3px solid lightseagreen;
+  border: 3px solid #658985;
   padding:10px;
   border-radius: 500px;
   transition: all .5s ease;
 }
 .avatar:hover{
   padding:2px;
-  border: 11px solid lightseagreen;
+  border: 11px solid #658985;
   transition: all .5s ease;
 }
 .avaText{
@@ -240,7 +241,7 @@ export default {
 }
 .it{
   margin:20px;
-  color: lightseagreen;
+  color: #658985;
 }
 .profile{
   display: flex;
@@ -250,7 +251,7 @@ export default {
 }
 .blob{
   position: absolute;
-  opacity: 0.7;
+  opacity: 0.1;
   z-index: 10;
 }
 .one{
@@ -286,7 +287,7 @@ export default {
   font-size: 25px;
 }
 .sSub{
-  color: lightseagreen;
+  color: #658985;
   font-weight: normal;
   margin: 5px;
 }
@@ -317,27 +318,27 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
   height: 500px;
-  border:1px solid lightseagreen;
+  border:1px solid #658985;
   border-radius: 20px;
   width: 80vw;
   position: absolute;
-  top:80vh;
+  top:60vh;
   left:10vw;
   background: #F9F9F9;
 }
 #first{
-  border-right: 1px solid lightseagreen;
+  border-right: 1px solid #658985;
 }
 #last{
-  border-left: 1px solid lightseagreen;
+  border-left: 1px solid #658985;
 }
 .aboutContainer{
-  background: lightseagreen;
+  background: #658985;
   color: white;
   padding: 150px 50px 300px 50px;
 }
 .projectContainer{
-  background: lightseagreen;
+  background: #658985;
   color: white;
   padding: 75px 50px 150px 50px;
 }
@@ -371,11 +372,11 @@ export default {
   transition: all .3s ease;
 }
 .link{
-  color:lightseagreen !important;
+  color:#658985 !important;
   font-size: 20px;
 }
 .link:visited{
-  color: lightseagreen !important;
+  color: #658985 !important;
 }
 .desc{
   height: 100px;
@@ -389,7 +390,7 @@ export default {
   align-items: center;
 }
 .tech{
-  color:lightseagreen;
+  color:#658985;
 }
 
 .head{
