@@ -1,434 +1,559 @@
 <script src="../node_modules/rellax/rellax.js"></script>
 <template>
-  <v-app class="app">
-    <div class="bg">
-      <svg class="blob one rellax" data-rellax-speed="4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#83B3AE" d="M49.8,-56.4C54.4,-45.2,40.9,-22.6,35.1,-5.7C29.4,11.2,31.5,22.4,26.9,33.6C22.4,44.9,11.2,56.2,-4.8,61C-20.8,65.8,-41.6,64.1,-53,52.8C-64.4,41.6,-66.5,20.8,-62.7,3.8C-58.9,-13.1,-49.2,-26.3,-37.7,-37.4C-26.3,-48.6,-13.1,-57.8,4.7,-62.5C22.6,-67.3,45.2,-67.6,49.8,-56.4Z" transform="translate(100 100)" />
-      </svg>
-      <svg class="blob two rellax" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#83B3AE" d="M61.1,-50.5C76.9,-45.4,85.5,-22.7,82.3,-3.2C79.1,16.2,63.9,32.5,48.2,41.5C32.5,50.5,16.2,52.3,1.5,50.8C-13.3,49.4,-26.6,44.6,-34,35.6C-41.5,26.6,-43.2,13.3,-44.3,-1.1C-45.3,-15.5,-45.9,-30.9,-38.4,-35.9C-30.9,-41,-15.5,-35.6,3.6,-39.2C22.7,-42.8,45.4,-55.5,61.1,-50.5Z" transform="translate(100 100)" />
-      </svg>
-      <svg class="blob three rellax"  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#83B3AE" d="M54.3,-14.4C58.5,-4.9,41.6,14.6,24.2,25.3C6.8,36.1,-11.1,38.1,-21.5,30.3C-31.9,22.6,-34.7,5.2,-29.8,-5.2C-25,-15.7,-12.5,-19.2,6.3,-21.2C25.1,-23.3,50.2,-23.9,54.3,-14.4Z" transform="translate(100 100)" />
+  <div>
+    <div class="skewed1">
+      <div class="blocks current">
+        <div class="profile">
+          <h2>HI THERE 👋 I'M</h2>
+          <h1>PICHARD</h1>
+          <h1>Kilian</h1>
+          <h3>Web Developper</h3>
+        </div>
+        <div class="card">
+          <pre><span class="grey">1</span>  <span class="red">class</span> <span class="purple">Person {</span></pre>
+          <pre><span class="grey">2</span>      <span class="red">constructor</span><span class="purple">() {</span></pre>
+          <pre><span class="grey">3</span>        <span class="blue">this</span>.name = <span class="blue">"Kilian PICHARD"</span>;</pre>
+          <pre><span class="grey">4</span>        <span class="blue">this</span>.traits = <span class="blue">["DEV", "DESIGN"]</span>;</pre>
+          <pre><span class="grey">5</span>        <span class="blue">this</span>.age = <span class="red">new Date</span><span class="purple">()</span>.<span class="purple">getFullYear()</span> - 2001;</pre>
+          <pre><span class="grey">6</span>      }</pre>
+          <pre><span class="grey">7</span>  }</pre>
+        </div>
+      </div>
+      <img class="appleProfile" src="@/assets/appleLogo.png" />
+    </div>
+
+    <div class="abSpacer"></div>
+    <div>
+      <h1>About Me</h1>
+      <img class="pp" src="@/assets/pp.jpg" />
+    </div>
+    <div class="custom-shape-divider-top-1640347703">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
       </svg>
     </div>
-    <div class="navBar">
-      <img
-        class="logo"
-        src="@/assets/logo.svg"
-      />
+    <div class="skills">
+      <h5>Skills & Tools</h5>
+      <div>
+        technologies I use
+        <div class="row">
+          <i class="col col-2 devicon-css3-plain-wordmark">CSS 3</i>
+          <i class="col col-2 devicon-html5-plain-wordmark">HTML 5</i>
+          <i class="col col-2 devicon-bootstrap-plain">BOOTSTRAP</i>
+          <i class="col col-2 devicon-php-plain">PHP</i>
+          <i class="col col-2 devicon-javascript-plain">JAVASCRIPT</i>
+          <i class="col col-2 devicon-typescript-plain">TYPESCRIPT</i>
+        </div>
+        <div class="row">
+          <i class="col col-2 devicon-jquery-plain">JQUERY</i>
+          <i class="col col-2 devicon-vuejs-plain">VUEJS</i>
+          <i class="col col-2 devicon-nodejs-plain">NODE.JS</i>
+          <i class="col col-2 devicon-java-plain">JAVA</i>
+          <i class="col col-2 devicon-wordpress-plain">WORDPRESS</i>
+          <i class="col col-2 devicon-handlebars-plain">HANDLEBARS</i>
+        </div>
+      </div>
+      <div>
+        My Toolbox
+        <div class="row">
+          <i class="col col-2 devicon-npm-original-wordmark">NPM</i>
+          <i class="col col-2 devicon-heroku-plain">HEROKU</i>
+          <i class="col col-2 devicon-ionic-original">IONIC</i>
+          <i class="col col-2 devicon-git-plain">GIT</i>
+          <i class="col col-2 devicon-gitlab-plain">GITLAB</i>
+          <i class="col col-2 devicon-bash-plain">BASH</i>
+        </div>
+        <div class="row">
+          <i class="col col-2 devicon-mysql-plain">MYSQL</i>
+          <i class="col col-2 devicon-mongodb-plain">MONGODB</i>
+          <i class="col col-2 devicon-xd-plain">ADOBE SUITE</i>
+          <i class="col col-2 devicon-vscode-plain">VSCODE</i>
+          <i class="col col-2 devicon-trello-plain">TRELLO</i>
+          <i class="col col-2 devicon-docker-plain">DOCKER</i>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1640364025">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </div>
-    <v-main class="main">
-      <div class="profile">
-        <div class="name">
-          <h1 class="thin code" v-text="'<'"></h1><h1 class="thin">KILIAN</h1><h1>PICHARD</h1> <h1 class="thin code" v-text="'/>'"></h1>
-        </div>
-        <div class="avaText">
-        <div class="avatar">
-          <v-avatar size="250" class="imgAv"><v-img src="@/assets/pp.jpg"></v-img> </v-avatar></div>
-        <div class="it">
-          <h1 class="thin">IT</h1>
-          <h1>STUDENT</h1>
-          <h3 class="thin">Caen, France.</h3>
-        </div>
-        </div>
-      </div>
-      <div class="firstPart">
-        <div class="aboutContainer">
-          <h1 class="cat">About Me</h1>
-          <div class="underline"></div>
-          <h2 class="about">Attentive, Curious, Motivated; I had the opportunity to work on several web projects, either during my training or on my personal time. I like to work in a team, in order to share our knowledge with the whole team.
-            I'm looking for an internship in Web Development to finalize my studies, and start to
-            work in the professional world.</h2>
-        </div>
 
-        <div class="skills">
-          <div id="first" class="col">
-            <div class="imgCont">
-              <v-img class="iconSvg" src="@/assets/designer.svg"></v-img>
-            </div>
-            <h2 class="sTitle">Creation</h2>
-            <h3 class="sSub">Creation I've been working on : </h3>
-            <p>UI, UX, Logos, Posters, Clips</p>
-
-            <h3 class="sSub">Creating Tools : </h3>
-            <p>Adobe Photoshop, Lightroom, Illustrator</p>
-            <p>Adobe Premiere Pro, After Effects</p>
-            <p>Apple Final Cut Pro, Logic Pro X</p>
-            <p>Figma</p>
+    <div class="projects">
+      <div class="project row">
+        <div class="col col-6 text">
+          <h1>Pram's App</h1>
+          <p>
+            This is a webapp for the musicien of my music group, converted into
+            an ios and android web app, allowing us to manage our concerts,
+            create surveys, rehearsal dates , or to calculate mileage costs
+            automatically. (Use of several APIs: Youtube / Spotify). Group
+            project with
+            <a>Julien LE PECHEUR</a>
+          </p>
+          <div class="row tech">
+            <i class="devicon-vuejs-plain"></i>
+            <i class="devicon-nodejs-plain"></i>
+            <i class="devicon-ionic-original"></i>
+            <i class="devicon-heroku-plain"></i>
           </div>
-          <div  class="col">
-            <div class="imgCont">
-              <v-img class="iconSvg" src="@/assets/frontend.svg"></v-img>
-            </div>
-            <h2 class="sTitle">Web Development</h2>
-            <h3 class="sSub">Languages I Speak : </h3>
-                <p>Vue.JS, HTML 5, CSS 3, JavaScript, PHP</p>
-                 <p>Vuetify, Ember.JS, Ubiquity, Bootstrap</p>
-            <h3 class="sSub">Dev Tools : </h3>
-            <p>MongoDB, Oracle, MySQL, UML</p>
-            <p>Heroku</p>
-            <p>Git</p>
-            <p>Cordova/Ionic</p>
-          </div>
-          <div id="last" class="col">
-            <div class="imgCont">
-              <v-img class="iconSvg" src="@/assets/binary-code.svg"></v-img>
-            </div>
-            <h2 class="sTitle">Other</h2>
-            <h3 class="sSub">Languages I Speak : </h3>
-            <p>Java, C, Basics in Python</p>
-
-            <h3 class="sSub">Dev Tools : </h3>
-            <p>SageMath</p>
-            <p>Eclipse / IntelliJ</p>
-            <p>jUnit / Maven / Jenkins</p>
-          </div>
+        </div>
+        <div class="col col-6"><img src="@/assets/iphonesPrams.png" /></div>
+        <div class="custom-shape-divider-bottom-1640363614">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </div>
-      <div class="firstPart">
-      <div class="projectContainer">
-        <h1 class="cat">My Projects</h1>
-        <div class="underline"></div>
-        <h2 class="about">I had the opportunity to create some websites, here are some of them.</h2>
+
+      <div class="project row">
+        <div class="col col-6"><img src="@/assets/ipadPrams.png" /></div>
+        <div class="col col-6 text">
+          <h1>Pram's Showcase Website</h1>
+          <p>
+            This is a showcase website for my music group "Pram's" where you can
+            find our videos, photos, musiciens/members. Group project with
+            <a>Julien LE PECHEUR</a>
+          </p>
+          <div class="row tech">
+            <i class="devicon-vuejs-plain"></i>
+            <i class="devicon-gitlab-plain"></i>
+            <i class="devicon-heroku-plain"></i>
+          </div>
+            <v-btn class="btn">
+            <i class="devicon-safari-plain"></i>
+            Visit Website
+          </v-btn>
+        </div>
+        <div class="custom-shape-divider-bottom-1640363701">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
       </div>
-      <div class="underline"></div>
-      <div class="allProjects">
-
-        <div class="project nameDiv">
-          <div class="index">
-            <div class="head">
-            <img class="projectImg"  src="@/assets/prams.png">
-              <h2 class="projectTitle">PRAM'S</h2>
-            </div>
-            <div class="desc">
-
-              <p class="projectContent">I coded a showcase website for my music group PRAM'S, but also a hidden site, coded with a friend, only accessible by musicians and converted into an ios and android web app, allowing us to manage our concerts, create surveys, rehearsal dates , or to calculate mileage costs automatically. (Use of several APIs: Youtube / Spotify)</p>
-              <div class="language">
-                <p class="tech">Technologies Used</p>
-                <p>Vuetify, MongoDB, Capacitor/Ionic, Heroku, Git</p>
-                <a class="link" href="http://www.prams.fr/vitrine/accueil" target="_blank">www.prams.fr</a>
-              </div>
-            </div>
+      <div class="project row">
+        <div class="col col-6 text">
+          <h1>Schuller Graphic WebSite</h1>
+          <p>
+            During my internship at Schuller Digital Graphic, I had the
+            opportunity to work on many websites, including the new graphic
+            charter of the agency. This site allowed me to work on many effects
+            like masks or slides
+          </p>
+          <div class="row tech">
+            <i class="devicon-wordpress-plain"></i>
+            <i class="devicon-php-plain"></i>
           </div>
+            <v-btn class="btn">
+            <i class="devicon-safari-plain"></i>
+            Visit Website
+          </v-btn>
         </div>
-        <div class="project nameDiv">
-          <div class="zI">
-          <div class="head">
-          <img class="projectImg" src="@/assets/armelle.png">
-            <h2 class="projectTitle">ARMELLE BEAUTÉ</h2>
-          </div>
-          <div class="desc">
-
-            <p class="projectContent">I created with the CMS "JIMDO" a showcase site of product presentation and services of the beauty institute "Armelle Beauté"</p>
-            <div class="language">
-              <p class="tech">Technologies Used</p>
-              <p>CMS Jimdo</p>
-              <a class="link" href="http://www.armellebeaute.fr" target="_blank">www.armellebeaute.fr</a>
-            </div>
-
-          </div>
-          </div>
+        <div class="col col-6"><img src="@/assets/imacSchuller.png" /></div>
+        <div class="custom-shape-divider-bottom-1640363811">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
-        <div class="project">
-          <div class="zI">
-          <div class="head">
-          <img class="projectImg"  src="@/assets/tdf.png">
-            <h2 class="projectTitle">Tour de France</h2>
-          </div>
-          <div class="desc">
-            <p class="projectContent">We worked in groups of 4 on a project based on the "Tour de France", this project was entirely in PHP and on an ORACLE database. We had to retrieve several information, create some, like: adding cyclists, retrieving information / rankings</p><div class="language">
-            <p class="tech">Technologies Used</p>
-            <p>PHP, Oracle</p>
-          </div>
-          </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="zI">
-            <div class="head">
-              <img class="projectImg"  src="@/assets/indep.png">
-                <h2 class="projectTitle">Indépendante de Messei</h2>
-            </div>
+      </div>
 
-          <div class="desc">
-
-            <p class="projectContent">I coded a site for my other band, "L'Indépendante de Messei". This brings together our information, next concert dates, photo gallery</p>
-            <div class="language">
-              <p class="tech">Technologies Used</p>
-              <p>HTML 5, CSS 3</p>
-              <!--<a class="link" href="http://www.indépendante-messei.fr" target="_blank">www.indépendante-messei.fr</a>-->
-              <p>Link not available at the moment</p>
-            </div>
-          </div>
+      <div class="project row">
+        <div class="col col-6"><img src="@/assets/macSamdoc.png" /></div>
+        <div class="col col-6 text">
+          <h1>Samdoc CIGAR</h1>
+          <p>
+            This is a showcase website for my music group "Pram's" where you can
+            find our videos, photos, musiciens/members. Group project with
+            <a>Julien LE PECHEUR</a>
+          </p>
+          <div class="row tech">
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-nodejs-plain"></i>
+            <i class="devicon-git-plain"></i>
           </div>
         </div>
       </div>
+      <div class="project row">
+        <div class="col col-6 text">
+          <h1>ShareInstru</h1>
+          <p>
+            During my internship at Schuller Digital Graphic, I had the
+            opportunity to work on many websites, including the new graphic
+            charter of the agency. This site allowed me to work on many effects
+            like masks or slides
+          </p>
+
+            <div class="row tech">
+              <i class="devicon-html5-plain"></i>
+              <i class="devicon-css3-plain"></i>
+              <i class="devicon-php-plain"></i>
+              <i class="devicon-git-plain"></i>
+            </div>
+          <v-btn class="btn">
+            <i class="devicon-github-plain"></i>
+            Go to GitHub Repo
+          </v-btn>
+        </div>
+        <div class="col col-6"><img src="@/assets/macShareinstru.png" /></div>
+        <div class="custom-shape-divider-bottom-1640363811">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
       </div>
-    </v-main>
-  </v-app>
+    </div>
+  </div>
 </template>
 
 <script>
-import Rellax from 'rellax';
-var rellax = new Rellax('.rellax');
+import Rellax from 'rellax'
+var rellax = new Rellax('.rellax')
+import Competences from '@/views/competences.vue'
 
 export default {
-
-  name: "App",
+  name: 'App',
 
   data: () => ({
     //
-  })
-};
+  }),
+}
 </script>
 
-
 <style>
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+* {
   text-decoration: none;
   padding: 0;
+  font-family: Calibre-SemiBold, sans-serif;
   margin: 0;
+  color: #fafafa;
 }
-.thin{
-  font-weight: lighter;
-}
-
-.navBar{
-  color:white;
-  display: flex;
-  flex-wrap: wrap;
-  padding:15px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: relative;
-  background: #F9F9F9;
-}
-.logo{
-  height: 40px;
-  width: 40px;
-}
-.code{
-  color:#658985;
-}
-.name{
-  font-size: 40px;
-  margin-left: 30px;
-  z-index: 15;
-}
-.cat{
-  font-size: 40px;
-  margin: auto;
-  height: 60px;
-}
-.avatar{
-  border: 3px solid #658985;
-  padding:10px;
-  border-radius: 500px;
-  transition: all .5s ease;
-}
-.avatar:hover{
-  padding:2px;
-  border: 11px solid #658985;
-  transition: all .5s ease;
-}
-.avaText{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.it{
-  margin:20px;
-  color: #658985;
-}
-.profile{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-.blob{
-  position: absolute;
-  opacity: 0.1;
-  z-index: 10;
-}
-.one{
-  width: 60vw;
-  top:0;
-
-}
-.two{
-  width: 60vw;
-  right: 0;
-  top:100vh;
-}
-.three{
-  width: 100vw;
-  right: 25vw;
-  top:182vh;
-}
-
-
-.skill{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.skill>p{
-  padding-top:7px;
-}
-.skill>img{
-  height: 60px;
-}
-.sTitle{
-  color: #232323;
-  font-size: 25px;
-}
-.sSub{
-  color: #658985;
-  font-weight: normal;
-  margin: 5px;
-}
-.col{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 15;
-  height: 500px !important;
-  width: 25vw !important;
-}
-.iconSvg{
-  height: 48px !important;
-}
-.imgCont{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 80px;
-}
-.skills{
-  box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  height: 500px;
-  border:1px solid #658985;
-  border-radius: 20px;
-  width: 80vw;
-  position: absolute;
-  top:60vh;
-  left:10vw;
-  background: #F9F9F9;
-}
-#first{
-  border-right: 1px solid #658985;
-}
-#last{
-  border-left: 1px solid #658985;
-}
-.aboutContainer{
-  background: #658985;
-  color: white;
-  padding: 150px 50px 300px 50px;
-}
-.projectContainer{
-  background: #658985;
-  color: white;
-  padding: 75px 50px 150px 50px;
-}
-.about{
-  text-align: justify;
-}
-.firstPart{
-  position: relative;
-  padding-bottom: 400px;
-}
-.underline{
-  width: 10%;
-  border-top: 2px solid white;
-  margin-bottom: 20px;
-}
-.project{
-  background: white;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.10);
-  width: 30vw;
-  height: 450px;
-  padding:20px;
-  z-index: 15;
-  border-radius: 20px;
-  margin: 10px;
-  transition: all .3s ease;
-}
-.link{
-  color:#658985 !important;
-  font-size: 20px;
-}
-.link:visited{
-  color: #658985 !important;
-}
-.desc{
-  height: 100px;
-}
-.project:hover{
-  box-shadow: 0px 15px 30px 4px rgba(0,0,0,0.15);
-}
-.language{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.tech{
-  color:#658985;
-}
-
-.head{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom:10px;
-
-}
-.head>h2{
-  font-weight: normal;
-  width: 200px;
-  text-align: center;
+h1 {
+  color: #fafafa;
   text-transform: uppercase;
+  font-weight: 900;
 }
-.allProjects{
+
+.col {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  top:30vh;
-  margin-bottom: 20px;
+  justify-content: center;
 }
-.projectContent{
-  text-align: justify;
-  height: 180px;
+
+.card {
+  background: #313131;
+  color: #fafafa;
+  height: 30vh;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(0, -50%);
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px 0px rgba(81, 81, 81, 0.2);
+  z-index: 1;
 }
-.tech{
-  font-size: 20px;
+.card > pre {
+  margin: 5px 0px;
 }
-.projectImg{
-  height: 100px;
-  width: 100px;
-  border-radius: 500px;
+.purple {
+  color: rgb(167, 128, 223);
+}
+.red {
+  color: rgba(197, 98, 111);
+}
+.blue {
+  color: rgb(118, 179, 248);
+}
+.grey {
+  color: #515151;
+}
+.logo {
+  position: relative;
+}
+.appleProfile {
+  position: absolute;
+  top: 40px;
+  right: 10%;
+  width: 20%;
+}
+.skewed1 .appleProfile {
+  bottom: 15px;
+  right: 50px;
+  transform: skewY(-4deg) scale(1.5);
+  top: unset;
+  z-index: 300;
+}
+.skewed1 .blocks {
+  top: 300px;
+  height: 95vh;
+  transform: skewY(-4deg);
+}
+.skewed1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 90%;
+  background: #6c8885;
+  z-index: 0;
+  transform: skewY(4deg);
+  transform-origin: top right;
+}
+.custom-shape-divider-top-1640347703 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 100px;
 }
 
+.custom-shape-divider-top-1640347703 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1640347703 .shape-fill {
+  fill: #ffffff;
+}
+.profile {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: scale(2) translate(0, -50%);
+}
+.abSpacer {
+  height: 100vh;
+}
+
+.pp {
+  width: 25%;
+  border-radius: 500px;
+}
+.skills {
+  height: 100vh;
+  background: #6c8885;
+  margin-top: -50px;
+  padding-top: 100px !important;
+  padding: 50px;
+  position: relative;
+  font-size: 4rem;
+}
+i::before {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+i {
+  font-size: 1rem;
+}
+.projects {
+  background: #190e44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project:nth-child(2n + 1) {
+  background: #140b36;
+}
+.project {
+  padding-bottom: 200px;
+  padding: 0px 10vw;
+  position: relative;
+  width: 100vw;
+}
+.project img {
+  width: 140%;
+}
+.col-6.text {
+  padding: 50px 100px 10px 100px !important;
+  text-align: justify;
+  line-height: 1.5rem;
+  min-height: 80vh;
+}
+.text h1 {
+  margin-bottom: 50px;
+}
+.custom-shape-divider-bottom-1640363614 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640363614 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1640363614 .shape-fill {
+  fill: #190e44;
+}
+
+.custom-shape-divider-bottom-1640363701 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640363701 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 119px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1640363701 .shape-fill {
+  fill: #140b36;
+}
+
+.custom-shape-divider-bottom-1640363811 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640363811 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1640363811 .shape-fill {
+  fill: #190e44;
+}
+.custom-shape-divider-bottom-1640364025 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640364025 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 65px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1640364025 .shape-fill {
+  fill: #140b36;
+}
+
+.project i::before {
+  font-size: 2rem !important;
+  margin: 20px;
+}
+
+.row.tech{
+  max-height: 15%;
+  margin-top: 50px;
+}
+
+.btn{
+  background: white !important;
+  color: #190e44 !important;
+}
+.btn *{
+    color: #190e44 !important;
+}
 </style>
