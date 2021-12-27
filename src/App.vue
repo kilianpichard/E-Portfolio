@@ -556,4 +556,26 @@ i {
 .btn *{
     color: #190e44 !important;
 }
+
+
+
+
+.col-2 {
+flex: 0 0 16.6666666667%;
+max-width: 16.6666666667%;
+}
+
+
+.row {
+display: flex;
+flex-wrap: wrap;
+flex: 1 1 auto;
+margin-right: -12px;
+margin-left: -12px;
+}
+
+.col-6 {
+flex: 0 0 50%;
+max-width: 50%;
+}
 </style>
