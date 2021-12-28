@@ -11,12 +11,12 @@
         </div>
         <div class="card">
           <pre><span class="grey">1</span>  <span class="red">class</span> <span class="purple">Person {</span></pre>
-          <pre><span class="grey">2</span>      <span class="red">constructor</span><span class="purple">() {</span></pre>
+          <pre><span class="grey">2</span>      <span class="red">constructor</span><span class="purple">() <span class="yellow">{</span></span></pre>
           <pre><span class="grey">3</span>        <span class="blue">this</span>.name = <span class="blue">"Kilian PICHARD"</span>;</pre>
-          <pre><span class="grey">4</span>        <span class="blue">this</span>.traits = <span class="blue">["DEV", "DESIGN"]</span>;</pre>
+          <pre><span class="grey">4</span>        <span class="blue">this</span>.features = <span class="blue">["STUDENT", "DEV", "FRONT-END"]</span>;</pre>
           <pre><span class="grey">5</span>        <span class="blue">this</span>.age = <span class="red">new Date</span><span class="purple">()</span>.<span class="purple">getFullYear()</span> - 2001;</pre>
-          <pre><span class="grey">6</span>      }</pre>
-          <pre><span class="grey">7</span>  }</pre>
+          <pre class="yellow"><span class="grey">6</span>      }</pre>
+          <pre class="purple"><span class="grey">7</span>  }</pre>
         </div>
       </div>
       <img class="appleProfile" src="@/assets/appleLogo.png" />
@@ -25,7 +25,14 @@
     <div class="abSpacer"></div>
     <div>
       <h1>About Me</h1>
-      <img class="pp" src="@/assets/pp.jpg" />
+      <div class="row">
+        <div class="col col-6"><img class="pp" src="@/assets/pp.jpg" /></div>
+        <div class="col col-6">
+          Developer as passionate about the web as about new technologies and
+          design. I am particularly attracted to Javascript programming (Vue.JS
+          / Node.JS)
+        </div>
+      </div>
     </div>
     <div class="custom-shape-divider-top-1640347703">
       <svg
@@ -102,7 +109,7 @@
             create surveys, rehearsal dates , or to calculate mileage costs
             automatically. (Use of several APIs: Youtube / Spotify). Group
             project with
-            <a>Julien LE PECHEUR</a>
+            <a href="">Julien LE PECHEUR</a>
           </p>
           <div class="row tech">
             <i class="devicon-vuejs-plain"></i>
@@ -134,14 +141,20 @@
           <p>
             This is a showcase website for my music group "Pram's" where you can
             find our videos, photos, musiciens/members. Group project with
-            <a>Julien LE PECHEUR</a>
+            <a target="_blank" href="https://github.com/WarKaa">
+              Julien LE PECHEUR
+            </a>
           </p>
           <div class="row tech">
             <i class="devicon-vuejs-plain"></i>
             <i class="devicon-gitlab-plain"></i>
             <i class="devicon-heroku-plain"></i>
           </div>
-            <v-btn class="btn">
+          <v-btn
+            class="btn"
+            target="_blank"
+            href="http://prams.fr/vitrine/accueil"
+          >
             <i class="devicon-safari-plain"></i>
             Visit Website
           </v-btn>
@@ -162,7 +175,7 @@
       </div>
       <div class="project row">
         <div class="col col-6 text">
-          <h1>Schuller Graphic WebSite</h1>
+          <h1>Schuller Digital Graphic WebSite</h1>
           <p>
             During my internship at Schuller Digital Graphic, I had the
             opportunity to work on many websites, including the new graphic
@@ -173,7 +186,11 @@
             <i class="devicon-wordpress-plain"></i>
             <i class="devicon-php-plain"></i>
           </div>
-            <v-btn class="btn">
+          <v-btn
+            class="btn"
+            target="_blank"
+            href="http://survps024.schuller-graphic.com"
+          >
             <i class="devicon-safari-plain"></i>
             Visit Website
           </v-btn>
@@ -232,13 +249,17 @@
             like masks or slides
           </p>
 
-            <div class="row tech">
-              <i class="devicon-html5-plain"></i>
-              <i class="devicon-css3-plain"></i>
-              <i class="devicon-php-plain"></i>
-              <i class="devicon-git-plain"></i>
-            </div>
-          <v-btn class="btn">
+          <div class="row tech">
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-php-plain"></i>
+            <i class="devicon-git-plain"></i>
+          </div>
+          <v-btn
+            class="btn"
+            target="_blank"
+            href="https://github.com/kilianpichard/ShareInstru"
+          >
             <i class="devicon-github-plain"></i>
             Go to GitHub Repo
           </v-btn>
@@ -336,6 +357,9 @@ h1 {
 }
 .blue {
   color: rgb(118, 179, 248);
+}
+.yellow {
+  color: rgb(207, 207, 74);
 }
 .grey {
   color: #515151;
@@ -441,6 +465,10 @@ i {
   position: relative;
   width: 100vw;
 }
+.projects h1 {
+  position: absolute;
+  top: 100px;
+}
 .project img {
   width: 140%;
 }
@@ -544,38 +572,34 @@ i {
   margin: 20px;
 }
 
-.row.tech{
+.row.tech {
   max-height: 15%;
   margin-top: 50px;
 }
 
-.btn{
+.btn {
   background: white !important;
   color: #190e44 !important;
 }
-.btn *{
-    color: #190e44 !important;
+.btn * {
+  color: #190e44 !important;
 }
-
-
-
 
 .col-2 {
-flex: 0 0 16.6666666667%;
-max-width: 16.6666666667%;
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%;
 }
 
-
 .row {
-display: flex;
-flex-wrap: wrap;
-flex: 1 1 auto;
-margin-right: -12px;
-margin-left: -12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  margin-right: -12px;
+  margin-left: -12px;
 }
 
 .col-6 {
-flex: 0 0 50%;
-max-width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 </style>
