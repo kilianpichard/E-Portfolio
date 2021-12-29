@@ -1,13 +1,14 @@
 <script src="../node_modules/rellax/rellax.js"></script>
 <template>
   <div>
+    <img class="logoT" src="@/assets/kilian.gif" />
     <div class="skewed1">
       <div class="blocks current">
         <div class="profile">
           <h2>HI THERE 👋 I'M</h2>
           <h1>PICHARD</h1>
           <h1>Kilian</h1>
-          <h3>Web Developper</h3>
+          <h5 class="bigger">Web Developper</h5>
         </div>
         <div class="card">
           <pre><span class="grey">1</span>  <span class="red">class</span> <span class="purple">Person {</span></pre>
@@ -23,15 +24,50 @@
     </div>
 
     <div class="abSpacer"></div>
-    <div>
-      <h1>About Me</h1>
+    <div class="text-black">
       <div class="row">
-        <div class="col col-6"><img class="pp" src="@/assets/pp.jpg" /></div>
         <div class="col col-6">
+          <img class="pp" src="@/assets/pp.jpg" />
+        </div>
+        <div class="col col-5 serif-text">
           Developer as passionate about the web as about new technologies and
           design. I am particularly attracted to Javascript programming (Vue.JS
-          / Node.JS)
+          / Node.JS).
+          <br />
+          <br />
+          Attentive, Curious, Motivated; I had the opportunity to work on
+          several web projects, either during my training or on my personal
+          time.
+          <br />
+          <br />
+          I like to work in a team, in order to exchange exchange with the whole
+          team. knowledge.
+          <br />
+          <br />
+          I am looking for a work-study in Web Development in Paris to finalize
+          my MBA 'Full-Stack' at MyDigitalSchool.
         </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col col-4"></div>
+        <div class="col col-2"><v-btn
+            class="btn"
+            target="_blank"
+            href="http://prams.fr/vitrine/accueil"
+          >
+            <i class="devicon-github-plain"></i>
+            My GIT Profile
+          </v-btn></div>
+        <div class="col col-2"><v-btn
+            class="btn"
+            target="_blank"
+            href="@/assets/CV_KILIAN_PICHARD.pdf"
+            download
+          >
+            <i class="devicon-safari-plain"></i>
+            My Resume
+          </v-btn></div>
+          <div class="col col-4"></div>
       </div>
     </div>
     <div class="custom-shape-divider-top-1640347703">
@@ -47,41 +83,45 @@
     <div class="skills">
       <h5>Skills & Tools</h5>
       <div>
-        technologies I use
-        <div class="row">
-          <i class="col col-2 devicon-css3-plain-wordmark">CSS 3</i>
-          <i class="col col-2 devicon-html5-plain-wordmark">HTML 5</i>
-          <i class="col col-2 devicon-bootstrap-plain">BOOTSTRAP</i>
-          <i class="col col-2 devicon-php-plain">PHP</i>
-          <i class="col col-2 devicon-javascript-plain">JAVASCRIPT</i>
-          <i class="col col-2 devicon-typescript-plain">TYPESCRIPT</i>
-        </div>
-        <div class="row">
-          <i class="col col-2 devicon-jquery-plain">JQUERY</i>
-          <i class="col col-2 devicon-vuejs-plain">VUEJS</i>
-          <i class="col col-2 devicon-nodejs-plain">NODE.JS</i>
-          <i class="col col-2 devicon-java-plain">JAVA</i>
-          <i class="col col-2 devicon-wordpress-plain">WORDPRESS</i>
-          <i class="col col-2 devicon-handlebars-plain">HANDLEBARS</i>
+        <span class="serif">My Stack</span>
+        <div class="container">
+          <div class="row margin-t">
+            <i class="col col-2 devicon-css3-plain-wordmark">CSS 3</i>
+            <i class="col col-2 devicon-html5-plain-wordmark">HTML 5</i>
+            <i class="col col-2 devicon-bootstrap-plain">BOOTSTRAP</i>
+            <i class="col col-2 devicon-php-plain">PHP</i>
+            <i class="col col-2 devicon-javascript-plain">JAVASCRIPT</i>
+            <i class="col col-2 devicon-typescript-plain">TYPESCRIPT</i>
+          </div>
+          <div class="row">
+            <i class="col col-2 devicon-jquery-plain">JQUERY</i>
+            <i class="col col-2 devicon-vuejs-plain">VUEJS</i>
+            <i class="col col-2 devicon-nodejs-plain">NODE.JS</i>
+            <i class="col col-2 devicon-java-plain">JAVA</i>
+            <i class="col col-2 devicon-wordpress-plain">WORDPRESS</i>
+            <i class="col col-2 devicon-handlebars-plain">HANDLEBARS</i>
+          </div>
         </div>
       </div>
       <div>
-        My Toolbox
-        <div class="row">
-          <i class="col col-2 devicon-npm-original-wordmark">NPM</i>
-          <i class="col col-2 devicon-heroku-plain">HEROKU</i>
-          <i class="col col-2 devicon-ionic-original">IONIC</i>
-          <i class="col col-2 devicon-git-plain">GIT</i>
-          <i class="col col-2 devicon-gitlab-plain">GITLAB</i>
-          <i class="col col-2 devicon-bash-plain">BASH</i>
-        </div>
-        <div class="row">
-          <i class="col col-2 devicon-mysql-plain">MYSQL</i>
-          <i class="col col-2 devicon-mongodb-plain">MONGODB</i>
-          <i class="col col-2 devicon-xd-plain">ADOBE SUITE</i>
-          <i class="col col-2 devicon-vscode-plain">VSCODE</i>
-          <i class="col col-2 devicon-trello-plain">TRELLO</i>
-          <i class="col col-2 devicon-docker-plain">DOCKER</i>
+        <span class="serif">My Toolbox</span>
+        <div class="container">
+          <div class="row">
+            <i class="col col-2 devicon-npm-original-wordmark">NPM</i>
+            <i class="col col-2 devicon-heroku-plain">HEROKU</i>
+            <i class="col col-2 devicon-ionic-original">IONIC</i>
+            <i class="col col-2 devicon-git-plain">GIT</i>
+            <i class="col col-2 devicon-gitlab-plain">GITLAB</i>
+            <i class="col col-2 devicon-bash-plain">BASH</i>
+          </div>
+          <div class="row">
+            <i class="col col-2 devicon-mysql-plain">MYSQL</i>
+            <i class="col col-2 devicon-mongodb-plain">MONGODB</i>
+            <i class="col col-2 devicon-xd-plain">ADOBE SUITE</i>
+            <i class="col col-2 devicon-vscode-plain">VSCODE</i>
+            <i class="col col-2 devicon-trello-plain">TRELLO</i>
+            <i class="col col-2 devicon-docker-plain">DOCKER</i>
+          </div>
         </div>
       </div>
       <div class="custom-shape-divider-bottom-1640364025">
@@ -177,7 +217,7 @@
         <div class="col col-6 text">
           <h1>Schuller Digital Graphic WebSite</h1>
           <p>
-            During my internship at Schuller Digital Graphic, I had the
+            During my work-study at Schuller Digital Graphic, I had the
             opportunity to work on many websites, including the new graphic
             charter of the agency. This site allowed me to work on many effects
             like masks or slides
@@ -309,6 +349,12 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Poppins:wght@100&display=swap');
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
 * {
   text-decoration: none;
   padding: 0;
@@ -373,12 +419,39 @@ h1 {
   right: 10%;
   width: 20%;
 }
+.logoT {
+  z-index: 10000 !important;
+  position: absolute;
+  width: 5%;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 .skewed1 .appleProfile {
   bottom: 15px;
   right: 50px;
   transform: skewY(-4deg) scale(1.5);
   top: unset;
   z-index: 300;
+}
+.serif {
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem !important;
+  margin-left: 40px;
+}
+.serif-text {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.4rem;
+  width: 50%;
+}
+.text-black * {
+  color: black !important;
+}
+.margin-t {
+  margin: 20px;
+}
+.thin {
+  font-family: 'Poppins', sans-serif;
 }
 .skewed1 .blocks {
   top: 300px;
@@ -431,15 +504,13 @@ h1 {
 }
 
 .pp {
-  width: 25%;
+  width: 50%;
   border-radius: 500px;
 }
 .skills {
-  height: 100vh;
   background: #6c8885;
   margin-top: -50px;
-  padding-top: 100px !important;
-  padding: 50px;
+  padding: 100px 50px 200px 50px;
   position: relative;
   font-size: 4rem;
 }
@@ -449,6 +520,10 @@ i::before {
 }
 i {
   font-size: 1rem;
+}
+.v-btn__content>i::before{
+  font-size:1.6rem !important;
+  margin:10px;
 }
 .projects {
   background: #190e44;
@@ -554,7 +629,11 @@ i {
   line-height: 0;
   transform: rotate(180deg);
 }
-
+.bigger {
+  margin-top: 10px;
+  border-top: 0.2px solid white;
+  font-size: 2rem !important;
+}
 .custom-shape-divider-bottom-1640364025 svg {
   position: relative;
   display: block;
