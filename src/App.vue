@@ -68,8 +68,8 @@
             My Resume
           </v-btn></div>
           <div class="col col-4"></div>
-      </div>
-    </div>-->
+      </div>-->
+    </div>
     <div class="custom-shape-divider-top-1640347703">
       <svg
         data-name="Layer 1"
@@ -107,12 +107,12 @@
         <span class="serif">My Toolbox</span>
         <div class="container">
           <div class="row">
-            <i class="col col-2 devicon-npm-original-wordmark">NPM</i>
+            <i class="col col-2 devicon-apple-original">MacOS / iOS</i>
             <i class="col col-2 devicon-heroku-plain">HEROKU</i>
             <i class="col col-2 devicon-ionic-original">IONIC</i>
             <i class="col col-2 devicon-git-plain">GIT</i>
             <i class="col col-2 devicon-gitlab-plain">GITLAB</i>
-            <i class="col col-2 devicon-bash-plain">BASH</i>
+            <i class="col col-2 devicon-npm-original-wordmark">NPM</i>
           </div>
           <div class="row">
             <i class="col col-2 devicon-mysql-plain">MYSQL</i>
@@ -281,15 +281,27 @@ Tasks Performed :<br>
             <i class="devicon-git-plain"></i>
           </div>
         </div>
+          <div class="custom-shape-divider-bottom-1640364025">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
       </div>
       <div class="project row">
         <div class="col col-6 text">
           <h1>ShareInstru</h1>
           <p>
-            During my internship at Schuller Digital Graphic, I had the
-            opportunity to work on many websites, including the new graphic
-            charter of the agency. This site allowed me to work on many effects
-            like masks or slides
+            This project was the project of my second year of DUT, it was realized in group.
+<br><br>
+This website was a platform of exchange/loan of instrument from private individual to private individual
           </p>
 
           <div class="row tech">
@@ -330,6 +342,25 @@ Tasks Performed :<br>
               class="shape-fill"
             ></path>
           </svg>
+        </div>
+      </div>
+       <div class="project row">
+        <div class="col col-6"><img style="max-width: 100%;" src="@/assets/macPortfolio.png" /></div>
+        <div class="col col-6 text">
+          <h1>This E-Porfolio</h1>
+          <div class="row tech">
+            <i class="devicon-vuejs-plain"></i>
+            <i class="devicon-git-plain"></i>
+            <i class="devicon-heroku-plain"></i>
+          </div>
+           <v-btn
+            class="btn"
+            target="_blank"
+            href="https://github.com/kilianpichard/E-Portfolio"
+          >
+            <i class="devicon-github-plain"></i>
+            Go to GitHub Repo
+          </v-btn>
         </div>
       </div>
     </div>
