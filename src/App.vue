@@ -715,4 +715,7 @@ i {
   flex: 0 0 50%;
   max-width: 50%;
 }
+.container>.row{
+  margin:20px;
+}
 </style>
