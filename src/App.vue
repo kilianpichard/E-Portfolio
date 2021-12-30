@@ -48,7 +48,7 @@
           my MBA 'Full-Stack' at MyDigitalSchool.
         </div>
       </div>
-      <div class="row mt-5">
+     <!-- <div class="row mt-5">
         <div class="col col-4"></div>
         <div class="col col-2"><v-btn
             class="btn"
@@ -69,7 +69,7 @@
           </v-btn></div>
           <div class="col col-4"></div>
       </div>
-    </div>
+    </div>-->
     <div class="custom-shape-divider-top-1640347703">
       <svg
         data-name="Layer 1"
@@ -215,7 +215,7 @@
       </div>
       <div class="project row">
         <div class="col col-6 text">
-          <h1>Schuller Digital Graphic WebSite</h1>
+          <h1>Schuller Digital Graphic Website</h1>
           <p>
             During my work-study at Schuller Digital Graphic, I had the
             opportunity to work on many websites, including the new graphic
@@ -266,9 +266,12 @@
         <div class="col col-6 text">
           <h1>Samdoc CIGAR</h1>
           <p>
-            This is a showcase website for my music group "Pram's" where you can
-            find our videos, photos, musiciens/members. Group project with
-            <a>Julien LE PECHEUR</a>
+            Finalization and graphic redesign of a CDN manager using Git versioning.<br>
+It is a web project with traditional HTML5 and CSS3, JavaScript<br><br>
+Tasks Performed :<br>
+- Addition of Front/Back Functionality<br>
+- Graphic redesign<br>
+- Implementation of Unit Tests<br>
           </p>
           <div class="row tech">
             <i class="devicon-html5-plain"></i>
