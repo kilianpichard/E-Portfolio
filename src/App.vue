@@ -99,7 +99,7 @@
             <i class="col col-2 devicon-nodejs-plain">NODE.JS</i>
             <i class="col col-2 devicon-java-plain">JAVA</i>
             <i class="col col-2 devicon-wordpress-plain">WORDPRESS</i>
-            <i class="col col-2 devicon-handlebars-plain">HANDLEBARS</i>
+            <i class="devicon-ember-original-wordmark">EMBER JS</i>
           </div>
         </div>
       </div>
